@@ -1,0 +1,42 @@
+  .service{
+    padding-top: 92px;
+  }
+  .service-wrapper>div{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .service-wrapper>div>div:nth-child(1){
+    width: 260px;
+    height: auto;
+    margin: 0 auto;
+
+ }
+ .service-wrapper>div>h3{
+   font-weight: 400;
+   font-size: 26px;
+   margin-top: 20px;
+
+}
+.service-wrapper>div>p{
+    font-weight: 300;
+    font-size:14px ;
+    color:grey;
+   margin-bottom:15px;
+
+    
+}
+.service-wrapper>div:nth-child(1)>div:nth-child(1){
+    width: 272px;
+    height: auto;
+}
+
+
+@media screen and (max-width:350px) {
+    
+  .service-wrapper>div>div:nth-child(1),
+  .service-wrapper>div:nth-child(1)>div:nth-child(1){
+    width: 50%;
+  }
+
+    
+}

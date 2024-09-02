@@ -1,0 +1,122 @@
+
+/* content section begins  */
+.content{
+    padding-top: 86px;
+}
+.content-wrapper{
+    display: flex;
+    gap: 30px; 
+    padding: 0 20px;   
+    
+}
+.content-wrapper>div:nth-child(1)>img{
+    width: 240px;
+    height: 170px;
+    margin-top: 100px;
+
+}
+.content-wrapper>div:nth-child(2)>p{
+    margin-top: 100px;
+    font-weight: 400;
+}
+/* content section ends */
+
+/* content2 section begins */
+.content2-wrapper{
+    margin-top: 30px;
+    font-weight: 400;
+}
+.content2-wrapper>div:nth-child(1){
+    
+    text-align: center;
+    padding: 0 20px;
+}
+.content2-wrapper>div:nth-child(2){
+    margin-top: 40px;
+    border: 2px solid ;
+    padding: 40px;
+    text-align: center;
+
+}
+.content2-wrapper>div:nth-child(2)>h4{
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* content2 section ends */
+
+
+/* media query starts */
+@media screen and (max-width:1000px){
+    
+    
+    .head-wrapper>img{
+        width: 150px;
+        margin: 0 auto;
+        
+    }
+    .head-wrapper>div{
+        display: none;
+    
+    }
+    .head-wrapper>i{
+        display: flex;
+    }
+    .content-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-wrapper>div:nth-child(2)>p{
+        margin-top: 40px;
+    }
+    
+    .pre-footer-wrapper{
+        width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+}
+@media  screen and (max-width:600px) {
+    .footer-wrapper{
+        
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer-wrapper>div:nth-child(1){
+        order:1 ;
+        text-align: center;
+    }
+    .footer-wrapper>div:nth-child(2){
+        order: 3;
+    }
+    .footer-wrapper>div:nth-child(3){
+        order: 2;
+        text-align: center;
+        
+    }
+    .footer-wrapper>div{
+        width: 60%;
+    }
+}
+@media screen and (max-width:500px){
+    .head-wrapper{
+        height: fit-content;
+    }
+   
+    .head-wrapper>img{
+        width: 100px;
+        margin: 0 auto;
+        order:1;
+    }
+    .head-wrapper>div{
+        display: none;
+    }
+    .head-wrapper>i{
+        display:flex ;
+        order:2;
+    } 
+}   
+/* media query ends  */
+
