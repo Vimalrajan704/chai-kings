@@ -1,0 +1,192 @@
+/* chai section begins */
+.chai-banner{
+    padding-top: 92px;
+}
+.chai-banner-wrapper{
+    background-image: url(https://chaikings.com/wp-content/uploads/2022/04/Event-post-banner02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+    margin-bottom: 30px;
+    }
+     .event-wrapper{
+        display: flex;
+        width: 100%;
+        margin-top: 40px;  
+        flex-wrap: wrap;
+
+
+     }
+     /* chai section ends */
+     /* event section begins */
+     .event-wrapper>div:nth-child(1){
+        width: 50%;
+        margin-top: auto;
+        text-align: center;
+        margin-bottom: auto;
+     }
+
+      .event-wrapper>div:nth-child(1)>img{
+         height: 330px;
+     }
+     .event-wrapper>div:nth-child(2){
+        width: 50%;
+     }
+     .event-wrapper>div:nth-child(2)>h4{
+        margin: 20px 0 ;
+        font-size: 25px;
+        font-weight: 500;
+     }  
+     .event-wrapper>div:nth-child(2)>p{
+        font-weight: 300;
+        font-size: 18px;
+     }
+     .event-wrapper>div:nth-child(3){
+        width: 50%;
+     }
+     .event-wrapper>div:nth-child(4){
+        width: 50%;
+        margin-top: auto;
+        text-align: center;
+        margin-bottom: auto;
+
+     }
+     .event-wrapper>div:nth-child(4)>img{
+        height: 330px;
+        
+     }
+     .event-wrapper>div:nth-child(3)>h4{
+        margin: 20px 0 ;
+        font-size: 25px;
+        font-weight: 400;
+     }
+     .event-wrapper>div:nth-child(3)>p{
+       font-weight: 300;
+       font-size: 18px;
+     }
+     /* event section ends  */
+     /* picture section begins  */
+     .picture-wrapper{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 20px;
+       margin: 30px 0;       
+     }
+     .picture-wrapper>div{
+        width: 40%;
+     }
+    .picture-wrapper>div>img{
+      height: 340px;
+    } 
+     /* picture section ends  */
+
+     /* media query begins */
+      @media  screen and (max-width:900px) {
+        .chai-banner-wrapper{
+           height: 250px;
+        }
+         .event-wrapper>div:nth-child(1)>img{
+            height: 250px;
+         }
+         .event-wrapper>div:nth-child(2)>h4{
+            font-size: 20px;
+
+         }
+         .event-wrapper>div:nth-child(2)>p{
+            font-size: 17px;
+         }
+         .event-wrapper>div:nth-child(3)>h4{
+            font-size: 20px;
+         }
+         .event-wrapper>div:nth-child(3)>p{
+            font-size: 17px;
+         }
+         .event-wrapper>div:nth-child(4)>img{
+            height: 250px;
+         }
+         .picture-wrapper>div>img{
+            height: 250px;
+         }
+      }
+      @media screen and (max-width:700px) {
+        .chai-banner-wrapper{
+         height: 200px;
+        }
+         .event-wrapper{
+            flex-direction: column;
+            align-items: center;
+
+         }
+         .event-wrapper>div:nth-child(2)>h4{
+            font-size: 20px;
+         }
+         .event-wrapper>div:nth-child(2)>p{
+            font-size: 15px;
+            
+
+         }
+         .picture-wrapper{
+            flex-direction: column;
+         }
+         .picture-wrapper>div{
+           width: 100%;
+           text-align: center;
+         }
+         .picture-wrapper>div>img{
+            height: 250px;
+            width:250px;
+            
+         }
+       }
+         @media screen and (max-width:600px) {
+           .chai-banner-wrapper{
+            height: 170px;
+           }
+               
+            
+            
+         }
+         @media screen and (max-width:450px){
+            .chai-banner-wrapper{
+               height: 150px  ;
+            }
+         .event-wrapper>div:nth-child(1)>img{
+            width: 250px;
+         }
+         .event-wrapper>div:nth-child(4)>img{
+             width: 250px;  
+         }
+        
+
+
+          }
+          @media screen and (max-width:350px) {
+            
+            .chai-banner-wrapper{
+               height: 110px;
+            }
+         .event-wrapper>div:nth-child(1)>img{
+            width: 200px;
+            height: 200px;
+         }
+         .event-wrapper>div:nth-child(4)>img{
+            width: 200px;
+            height: 200px;
+         }
+         .picture-wrapper>div>img{
+            width: 200px;
+            height: 200px;
+         }
+      }
+
+
+         
+      
+
+     /* media query ends */
+
+
+     
